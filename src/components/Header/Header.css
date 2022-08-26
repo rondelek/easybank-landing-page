@@ -46,6 +46,6 @@
     transform: scaleX(1);
 }
 
-img {
+.header img {
     max-height: 20px;
 }

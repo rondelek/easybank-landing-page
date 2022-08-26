@@ -10,6 +10,7 @@ export default function Last() {
             <div className="last-articles">
                 {data2.map(card =>(
                     <Article
+                    image={card.image}
                     author={card.author}
                     title={card.title}
                     text={card.text}
