@@ -1,0 +1,17 @@
+button {
+    max-width: 200px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border: none;
+    border-radius: 100px;
+    padding: 15px 30px;
+    margin-right: 150px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .6;
+}

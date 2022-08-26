@@ -1,0 +1,9 @@
+.second {
+    background-color: hsl(0, 0%, 98%);
+    padding: 100px;
+}
+
+.second-cards {
+    display: flex;
+    gap: 20px;
+}

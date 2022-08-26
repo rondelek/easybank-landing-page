@@ -1,0 +1,8 @@
+.last {
+    padding: 100px;
+}
+
+.last-articles {
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    max-height: 20px;
+    width: 100%;
+    background-color: white;
+    padding: 30px 80px;
+    z-index: 100;
+}
+
+.header-elements {
+    display: flex;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5vw;
+}
+
+.header-element {
+    position: relative;
+    color: black;
+    font-weight: bolder;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.header-element::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0;
+    bottom: -32px;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    height: 3px;
+    transform: scaleX(0);
+    transition: .2s; 
+}
+
+.header-element:hover {
+    transition: .2s;
+    opacity: 1;
+}
+
+.header-element:hover::after {
+    transform: scaleX(1);
+}
+
+img {
+    max-height: 20px;
+}
