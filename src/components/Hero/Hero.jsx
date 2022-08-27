@@ -12,7 +12,7 @@ export default function Hero() {
                 <Button/>
             </div>
             <div className="hero-right">
-                <img src={mockups} alt="" className="hero-right-img"/>
+                <img src={mockups} alt="" className="mockups"/>
             </div>
         </div>
     )
